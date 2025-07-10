@@ -44,8 +44,8 @@
             Tentang RS
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Visi & Misi</a></li>
-            <li><a class="dropdown-item" href="#">Sambutan Direktur RS</a></li>
+            <li><a class="dropdown-item" href="{{ route('identitas.index') }}" >Visi & Misi</a></li>
+            <li><a class="dropdown-item" href="{{ route('sambutan.index') }}">Sambutan Direktur RS</a></li>
           </ul>
         </li>
         <li class="nav-item">
@@ -55,7 +55,7 @@
           <a class="nav-link" href="{{ route('kontak.index') }}">Kontak Kami</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{ route('front.pendaftaran') }}">Pendaftaran Pasien</a>
+          <a class="nav-link" href="{{ route('front.pasien_daftar') }}">Pendaftaran Pasien</a>
         </li>
       </ul>
     </div>
